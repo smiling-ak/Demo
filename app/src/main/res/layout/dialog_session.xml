@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="?actionBarSize"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="@dimen/dialog_session_padding"
+        android:background="@android:color/holo_orange_dark">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_gravity="top"
+            android:inputType="text"
+            android:textSize="24dp"
+            android:text="Dialog Title" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dialog_session_ok"
+            android:layout_width="80dp"
+            app:backgroundTint="@null"
+            android:text="@android:string/ok"
+            android:textSize="@dimen/textSizeL"
+            android:backgroundTint="@color/design_default_color_primary"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dialog_session_padding"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:visibility="visible"
+            android:text="@string/dialogLabelName" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:visibility="visible"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/lightGray">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dialog_session_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="0.5"
+            android:backgroundTint="@color/design_default_color_on_secondary"
+            android:text="@android:string/cancel" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</RelativeLayout>

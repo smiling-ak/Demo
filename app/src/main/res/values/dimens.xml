@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialog_session_padding">25dp</dimen>
+    <dimen name="fifteen_dp">15dp</dimen>
+    <dimen name="twelve_dp">12dp</dimen>
+    <dimen name="textSizeXS">8sp</dimen>
+    <dimen name="textSizeS">10sp</dimen>
+    <dimen name="textSizeM">12sp</dimen>
+    <dimen name="textSizeL">18sp</dimen>
+    <dimen name="textSizeXL">20sp</dimen>
+    <dimen name="textSizeXXL">22sp</dimen>
+    <dimen name="textSizeXXXL">24sp</dimen>
+    <dimen name="btn_height_big">50dp</dimen>
+    <dimen name="btn_height_medium">30dp</dimen>
+    <dimen name="nav_header_vertical_spacing">20dp</dimen>
+    <dimen name="nav_header_height">230dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+</resources>

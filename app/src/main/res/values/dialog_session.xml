@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialogLabelName">Name:</string>
+    <string name="dialogLabelMins">Minutes:</string>
+    <string name="dialogLabelAmt">Amount:</string>
+    <string name="dialogLabelCurrency">$</string>
+    <string name="dialogLabelHowLongAgo">How long ago:</string>
+    <string name="dialogLabelReason">Reason:</string>
+    <string name="dialogLabelError">All fields are required</string>
+</resources>
